@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>EPLAN</title>
+ <link href="https://sstasl.github.io/eplan/atom.xml" rel="self"/>
+ <link href="https://sstasl.github.io/eplan/"/>
+ <updated>2016-06-06T22:40:26+03:00</updated>
+ <id>https://sstasl.github.io/eplan</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Introducing BlackDoc</title>
+   <link href="https://sstasl.github.io/eplan/2016/06/02/first/"/>
+   <updated>2016-06-02T00:00:00+03:00</updated>
+   <id>https://sstasl.github.io/eplan/2016/06/02/first</id>
+   <content type="html">&lt;p&gt;Начало положено!&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
