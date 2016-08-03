@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      3 Проекты &middot; EPLAN
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/eplan//public/css/poole.css">
+  <link rel="stylesheet" href="/eplan//public/css/syntax.css">
+  <link rel="stylesheet" href="/eplan//public/css/blackdoc.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/eplan//public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/eplan//public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/eplan/">
+          EPLAN
+        </a>
+      </h1>
+      <p class="lead">Eplan Electric P8</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/eplan/">На главную</a>
+
+      
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/eplan/about/">О сайте</a>
+          
+        
+      
+        
+      
+        
+      
+		
+	  <hr>
+	  
+      
+		
+          
+            <a class="sidebar-nav-item" href="/eplan/0_Pictograms/">Основные пиктограммы</a>
+          
+        
+      
+		
+          
+            <a class="sidebar-nav-item" href="/eplan/1_Hardware/">1 Установка Eplan Electric P8</a>
+          
+        
+      
+		
+          
+            <a class="sidebar-nav-item" href="/eplan/2_TheBasics/">2 Основы системы</a>
+          
+        
+      
+		
+          
+            <a class="sidebar-nav-item active" href="/eplan/3_Projects/">3 Проекты</a>
+          
+        
+      
+		
+          
+        
+      
+		
+      
+		
+          
+        
+      
+		
+          
+        
+      
+      <!--<a class="sidebar-nav-item" href="https://github.com/sstasl/eplan/archive/master.zip">Download</a>-->
+      <hr>
+      <a class="sidebar-nav-item" href="https://github.com/sstasl/eplan">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v1.0.0</span>
+    </nav>
+
+    <p>&copy; 2016. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">3 Проекты</h1>
+  <p>Прежде чем вы сможете редактировать схемы в EPLAN, проект должен быть создан.</p>
+
+<blockquote>
+  <p>ПРИМЕЧАНИЕ: в EPLAN место хранения проектов и названия отдельных проектов могут быть свободно выбраны. Единственные ограничения на именование накладывает ОС Windows.</p>
+</blockquote>
+
+<p>Когда структура страниц и устройств определена, проект обладает всеми необходимыми свойствами, такими как структура устройств (например структурным идентификатором
+ места установки, который должен быть использован), а также основными данными такими как формы, данные изделий, определения функций, библиотеки символов и т. п. необходимыми
+ для редактирования проекта.</p>
+
+<p>Свойства проекта - вкладка Структура
+<img src="1.jpg" alt="" /></p>
+
+<p>Все эти данные хранятся в проекте. Данные добавленные позже, такие как формы, также хранятся в проекте.
+Этот подход (хранения основных данных вместе с проектом) обеспечивает возможность последующего редактирования проекта с теми же данными которые были использованы при
+ создании проекта, или сохранены в проекте при его редактировании.</p>
+
+<h2 id="section">3.1 Типы проектов</h2>
+
+<p>EPLAN может работать с двумя типами проектов: это <em>проекты схем соединений</em> (стандартный проект применяемый на практике) и <em>проекты макросов</em></p>
+
+<p><em>Проекты макросов</em> используются для создания и редактирования макросов. Логические функции, такие как перекрестные ссылки и информация о соединениях в <em>проектах макросов</em>
+ не поддерживаются и соответсвенно не отображаются.</p>
+
+<p>При необходимости <em>проект схем соединений</em> может быть легко преобразован в <em>проект макросов</em> при помощи свойства &lt;10902 Тип проекта&gt;</p>
+
+<p>Свойства проекта - вкладка Свойства
+<img src="2.jpg" alt="" /></p>
+
+<p>Других типов проектов не существует. Основные данные (такие как формы и символы) обрабатываются непосредственно текущего из проекта. Обрабатываются основные данные хранящиеся
+ в пулле основных данных системы, после их закрытия и сохранения, они (основные данные) могут быть синхронизированы с основными данными текущего проекта (в зависимости от
+ настроек).
+ Так же основные данные системы, могут быть синхронизированы с основными данными проекта, вручную. Синхронизация основных данных возможана как в одном (из пулла основных
+ данных в проект) так и в обратном (из проекта в пулл основных данных) направлении.
+ Если при синхронизации основных данных EPLAN обнаруживает несоответствие синхронизируемых основных данных, то генерируется соответствующее сообщение и синхронизация
+ отменяется, так как несовместимые основные данные не могут быть использованы для перезаписи существующих основных данных. Например когда выводы символа, размещенного в проекте,
+ не соответствуют выводам этого же символа в синхронизируемой библиотеке символов, такая библиотека символов не может быть синхронизирована.</p>
+
+<p>Проект состоит из директории <strong>Projectname.edb</strong> и файла <strong>Projectname.elk</strong> (расширение файла .elk указывает на то что это нормально редактируемый <em>проект схем соединений</em>).</p>
+
+<p>Директория проектов
+<img src="3.jpg" alt="" /></p>
+
+<p>Также Вы можете запустить проект из проводника при помощи двойного клика мыши по файлу <em>Projectname.elk</em> . Проект также можно открыть путем перетаскивания (Drag&amp;Drop) файла
+ <em>Projectname.elk</em> из проводника в навигатор страниц.</p>
+
+</div>
+
+    </div>
+
+  </body>
+</html>
