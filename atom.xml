@@ -4,13 +4,24 @@
  <title>EPLAN</title>
  <link href="https://sstasl.github.io/eplan/atom.xml" rel="self"/>
  <link href="https://sstasl.github.io/eplan/"/>
- <updated>2016-08-03T10:24:41+03:00</updated>
+ <updated>2016-11-06T18:19:40+02:00</updated>
  <id>https://sstasl.github.io/eplan</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Запуск редактора БДИ отдельно от Eplan</title>
+   <link href="https://sstasl.github.io/eplan/2016/11/06/DB/"/>
+   <updated>2016-11-06T00:00:00+02:00</updated>
+   <id>https://sstasl.github.io/eplan/2016/11/06/DB</id>
+   <content type="html">&lt;p&gt;Для запуска редактора базы данных изделий отдельно от Eplan необходимо, из командной строки Windows выполнить:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;C:\Program Files\EPLAN\Electric P8\2.6.3\BIN\W3u.exe&quot; /Variant:&quot;Electric P8&quot; /NoSplash /Frame:0 XPartsManagementStart&lt;/code&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Начало блога</title>
